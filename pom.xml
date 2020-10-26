@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<groupId>org.pccofvns.asciidoc.ext</groupId>
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>table-macro</artifactId>
+	<version>0.1</version>
+	<packaging>jar</packaging>
+	<name>table-macro</name>
+	<description>Asciisoc Extension for table macro</description>
+	<build>
+		<defaultGoal>compile</defaultGoal>
+		<plugins>
+			<plugin>
+		    <groupId>org.apache.maven.plugins</groupId>
+		    <artifactId>maven-compiler-plugin</artifactId>
+		    <version>3.8.0</version>
+				<configuration>
+					<release>11</release>
+				</configuration>
+		</plugin>
+		</plugins>
+	</build>
+	<properties>
+		 <asciidoctorj.version>2.2.0</asciidoctorj.version>
+		 <ojdbc.version>19.3.0.0</ojdbc.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.asciidoctor</groupId>
+			<artifactId>asciidoctorj</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.oracle.ojdbc</groupId>
+			<artifactId>ojdbc8</artifactId>
+		</dependency>
+	</dependencies>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.asciidoctor</groupId>
+				<artifactId>asciidoctorj</artifactId>
+				<version>${asciidoctorj.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.oracle.ojdbc</groupId>
+				<artifactId>ojdbc8</artifactId>
+				<version>${ojdbc.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	<developers>
+		<developer>
+			<id>pccofvns</id>
+			<name>Prashant C Chaturvedi</name>
+			<email>pccfrmvns@gmail.com</email>
+			<organizationUrl>https://pccofvns.github.io</organizationUrl>
+			<roles>
+				<role>admin</role>
+			</roles>
+		</developer>
+	</developers>
+</project>
