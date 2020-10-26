@@ -1,4 +1,4 @@
-package com.hcentive.exchange.docs.asciidoc.macro.processor;
+package org.pccofvns.asciidoc.ext.macro.processor;
 
 import org.asciidoctor.Asciidoctor;
 import org.asciidoctor.extension.JavaExtensionRegistry;

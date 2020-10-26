@@ -1,4 +1,4 @@
-package com.hcentive.exchange.docs.asciidoc.macro.processor;
+package org.pccofvns.asciidoc.ext.macro.processor;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

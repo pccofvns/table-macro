@@ -1,1 +1,1 @@
-com.hcentive.exchange.docs.asciidoc.macro.processor.TableBlockMacroExtension
+org.pccofvns.asciidoc.ext.macro.processor.TableBlockMacroExtension
